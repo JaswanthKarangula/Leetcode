@@ -13,6 +13,7 @@ public:
         int res = 0;
         for (string s : targetWords) {
             int hash = 0;
+            //try masking kth character for evry k [0-size]
             for (int k = 0; k < s.size(); k++) {
                 hash = 0;
                 for (int i = 0; i < s.size(); i++) {
