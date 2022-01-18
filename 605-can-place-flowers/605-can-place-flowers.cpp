@@ -8,7 +8,7 @@ public:
             
             if(i+1<n)next=f[i+1];
             else next=0;
-            cout<<prev<<"  "<<curr<<"   "<<next<<endl;
+            //cout<<prev<<"  "<<curr<<"   "<<next<<endl;
             if(prev==0 && next==0 && curr==0){
                 count++;
                 prev=1;
