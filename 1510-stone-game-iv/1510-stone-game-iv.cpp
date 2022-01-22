@@ -9,7 +9,7 @@ public:
             for(int j=1;j*j<=i;j++){
                 dp[i]=dp[i] | !dp[i-(j*j)];
             }
-            cout<<dp[i]<<endl;
+           // cout<<dp[i]<<endl;
         }
         return dp[n];
     }
