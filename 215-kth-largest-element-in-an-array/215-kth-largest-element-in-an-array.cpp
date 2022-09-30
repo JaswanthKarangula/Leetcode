@@ -26,6 +26,8 @@ public:
 //         }
 //          return pq.top();
         
+        // using Quickselect 
+        
         int left =0,right =nums.size()-1;
         int idx =0;
         while(1){
